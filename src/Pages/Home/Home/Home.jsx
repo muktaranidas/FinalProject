@@ -1,7 +1,11 @@
-import InfoCards from "../InfoCards/InfoCards";
-import Services from "../Services/Services";
+
+// import MakeAppointmentCard from "./MakeAppointmentCard/MakeAppointmentCard";
+
 import Banner from "./Banner/Banner";
-import MakeAppointmentCard from "./MakeAppointmentCard/MakeAppointmentCard";
+import DentalcareHomePage from "./DentalCareHomePage/DentalCareHomePage";
+import InfoCards from "./InfoCards/InfoCards";
+import MakeAppointmentHomeCard from "./MakeAppointmentHomeCard/MakeAppointmentHomeCard";
+import Services from "./Services/Services";
 
 // import React from 'react';
 const Home = () => {
@@ -10,7 +14,8 @@ const Home = () => {
             <Banner></Banner>
             <InfoCards></InfoCards>
             <Services></Services>
-            <MakeAppointmentCard></MakeAppointmentCard>
+            <DentalcareHomePage></DentalcareHomePage>
+            <MakeAppointmentHomeCard></MakeAppointmentHomeCard>
         </div>
     );
 };
