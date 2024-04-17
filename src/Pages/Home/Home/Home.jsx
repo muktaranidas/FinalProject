@@ -6,6 +6,7 @@ import DentalcareHomePage from "./DentalCareHomePage/DentalCareHomePage";
 import InfoCards from "./InfoCards/InfoCards";
 import MakeAppointmentHomeCard from "./MakeAppointmentHomeCard/MakeAppointmentHomeCard";
 import Services from "./Services/Services";
+import Testimonal from "./Testimonial/Testimonal";
 
 // import React from 'react';
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Services></Services>
             <DentalcareHomePage></DentalcareHomePage>
             <MakeAppointmentHomeCard></MakeAppointmentHomeCard>
+            <Testimonal></Testimonal>
         </div>
     );
 };
