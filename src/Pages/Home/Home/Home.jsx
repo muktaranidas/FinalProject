@@ -2,6 +2,7 @@
 // import MakeAppointmentCard from "./MakeAppointmentCard/MakeAppointmentCard";
 
 import Banner from "./Banner/Banner";
+import ContactUs from "./ContactUs/ContactUs";
 import DentalcareHomePage from "./DentalCareHomePage/DentalCareHomePage";
 import InfoCards from "./InfoCards/InfoCards";
 import MakeAppointmentHomeCard from "./MakeAppointmentHomeCard/MakeAppointmentHomeCard";
@@ -18,6 +19,7 @@ const Home = () => {
             <DentalcareHomePage></DentalcareHomePage>
             <MakeAppointmentHomeCard></MakeAppointmentHomeCard>
             <Testimonal></Testimonal>
+            <ContactUs></ContactUs>
         </div>
     );
 };
