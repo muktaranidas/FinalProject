@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <div className='my-10 '>
             <section className="footer flex justify-between p-10 bg-base-300 text-base-content" style={{
-            background:`url(${bgFooter})`
+                background: `url(${bgFooter})`,
+                backgroundSize:"cover"
         }}>
   <nav className=' '>
     <h6 className="footer-title">Services</h6> 
