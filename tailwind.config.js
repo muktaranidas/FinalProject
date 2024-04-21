@@ -10,7 +10,7 @@ export default {
         doctortheme: {
           primary: '#0FCFEC',
           secondary: '#19D3AE',
-          accent: "#00ffff",
+          accent: "#3A4256",
           neutral: "#ff00ff",
           "base-100": "#ffffff",
         }
