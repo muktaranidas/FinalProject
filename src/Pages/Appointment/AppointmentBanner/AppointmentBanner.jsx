@@ -9,7 +9,7 @@ const AppointmentBanner = () => {
         <div>
             <div className="hero my-6 ">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src={appointmentBannerChair} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={appointmentBannerChair} className="max-w-sm lg:w-1/2 rounded-lg shadow-2xl" />
     <div className='mr-6'>
               <DayPicker
                 mode='single'
@@ -17,6 +17,7 @@ const AppointmentBanner = () => {
                 onSelect={setSelectedDate}
 
               />
+              
               <p>You have selected date: {format(selectedDate,"PP")} </p>
               
     </div>
