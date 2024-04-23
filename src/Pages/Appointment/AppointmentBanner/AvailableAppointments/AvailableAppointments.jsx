@@ -1,11 +1,11 @@
 import { format } from 'date-fns';
 import React from 'react';
-const AvailableAppointments = ({selectedDate,setSelectedDate}) => {
+const AvailableAppointments = ({selectedDate}) => {
     return (
-        <div>
+        <section className='mt-16'>
             {/* <p className='text-center'>You have selected date: {format(selectedDate, "PP")} </p> */}
-            <p className='text-center text-secondary  font-bold'>Available Services on {format(setSelectedDate,'PP')}</p>
-        </div>
+            <p className='text-center text-secondary  font-bold'>Available Services on {format(selectedDate,'PP')}</p>
+        </section>
     );
 };
 export default AvailableAppointments;
